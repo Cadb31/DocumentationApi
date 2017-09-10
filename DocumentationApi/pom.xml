@@ -61,27 +61,10 @@
 			<artifactId>springfox-swagger2</artifactId>
 			<version>2.7.0</version>
 		</dependency>
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-staticdocs</artifactId>
-			<version>2.6.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>io.springfox.ui</groupId>
-			<artifactId>springfox-swagger-ui-rfc6570</artifactId>
-			<version>1.0.0</version>
-		</dependency>
 		<!-- Jackson -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-xml</artifactId>
-		</dependency>
-		<!-- Faster and better xml -->
-		<dependency>
-			<groupId>org.codehaus.woodstox</groupId>
-			<artifactId>woodstox-core-asl</artifactId>
-			<version>4.4.1</version>
 		</dependency>
 	</dependencies>
 
