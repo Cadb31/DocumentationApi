@@ -1,7 +1,5 @@
 package com.home.documentation.api;
 
-import java.time.LocalDate;
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -29,8 +27,7 @@ public class SwaggerConfiguration {
                 .paths(paths())
                 .build()
                 .pathMapping("/")
-                .apiInfo(apiInfo())                
-                .directModelSubstitute(LocalDate.class, String.class);
+                .apiInfo(apiInfo());
           }
 	
 	private ApiInfo apiInfo() {
