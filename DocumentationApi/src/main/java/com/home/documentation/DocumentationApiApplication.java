@@ -1,4 +1,4 @@
-package com.home.documentation.api;
+package com.home.documentation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
